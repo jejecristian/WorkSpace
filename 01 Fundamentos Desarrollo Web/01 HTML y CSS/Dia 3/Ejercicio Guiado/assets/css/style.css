@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+/*
+selector{
+    propiedad:valor;
+}
+*/
+
+/* reset CSS styles */
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Selector por etiqueta */
+body{
+    background:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector por clase */
+.rojo{
+    background: red;
+}
+
+/* Selector por id */
+#introduccion {
+    text-align:center;
+    text-transform:uppercase;
+    font-family: 'Koulen', cursive;
+}
+
+#customImg{
+    /*margin: 30px 10px 5px 0px;*/
+    /*margin: 30px;*/
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    border: 1.8rem solid #ccc;
+    /*border-top: double;*/
+    /*border-width: 30px 20px 10px 5px;
+    border-style: solid;
+    border-color:aliceblue;*/
+    padding: 5%;
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+}
+
+i{
+    font-size: 100px;
+}

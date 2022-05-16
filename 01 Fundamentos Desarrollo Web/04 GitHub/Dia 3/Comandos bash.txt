@@ -1,0 +1,300 @@
+ ./   ../   .git/  '01 Fundamentos Desarrollo Web'/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/documents/workspace (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/CursoJavaScript/Documents/Work
+Space/.git/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/documents/workspace (main)
+$ cd ..
+
+CursoJavaScript@MSIGE60 MINGW64 ~/documents
+$ cd ..
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ ls
+ ansel/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer0000000000000000000
+1.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer0000000000000000000
+2.regtrans-ms
+ ntuser.ini
+ Pictures/
+ Plantillas@
+ Reciente@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ pwd
+/c/Users/CursoJavaScript
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ cd desktop
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ clear
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ mkdir ejemplo_git
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cd ejemplo_git
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ mkdir assets
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ cd assets
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets
+$ mkdir css
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets
+$ mkdir js
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets
+$ mkdir img
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets
+$ ls
+css/  img/  js/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets
+$ cd ..
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ ls
+assets/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ cd ..
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ clear
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ ls
+desktop.ini  ejemplo_git/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cd ejemplo_git
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ clear
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git
+$ git init
+Initialized empty Git repository in C:/Users/CursoJavaScript/Desktop/ejemplo_git
+/.git/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ ls -a
+./  ../  .git/  assets/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ cd assets
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets (main)
+$ ls
+css/  img/  js/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets (main)
+$ clear
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets (main)
+$ ls
+css/  img/  js/
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets (main)
+$ pwd
+/c/Users/CursoJavaScript/desktop/ejemplo_git/assets
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git/assets (main)
+$ cd ..
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ touch index.html
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ ls
+assets/  index.html
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ touch version.html
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        version.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git add version.html
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   version.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git add --all
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   version.html
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git commit -m "mi primer commit proyecto v 1.0.0"
+[main (root-commit) c6a5d7b] mi primer commit proyecto v 1.0.0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 version.html
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git log
+commit c6a5d7baeb816e404006b6320edfbc029ef8b179 (HEAD -> main)
+Author: Cristian <jejecristian@gmail.com>
+Date:   Sat May 14 09:26:50 2022 -0400
+
+    mi primer commit proyecto v 1.0.0
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git commit -m "se agrega estructura html"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git add .
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git log
+commit c6a5d7baeb816e404006b6320edfbc029ef8b179 (HEAD -> main)
+Author: Cristian <jejecristian@gmail.com>
+Date:   Sat May 14 09:26:50 2022 -0400
+
+    mi primer commit proyecto v 1.0.0
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git commit -m "se agrega estructura html"
+[main dd8fd5d] se agrega estructura html
+ 1 file changed, 12 insertions(+)
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$ git log
+commit dd8fd5dc3409282a1ee194378b6f0e98a21a13b0 (HEAD -> main)
+Author: Cristian <jejecristian@gmail.com>
+Date:   Sat May 14 10:08:26 2022 -0400
+
+    se agrega estructura html
+
+commit c6a5d7baeb816e404006b6320edfbc029ef8b179
+Author: Cristian <jejecristian@gmail.com>
+Date:   Sat May 14 09:26:50 2022 -0400
+
+    mi primer commit proyecto v 1.0.0
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop/ejemplo_git (main)
+$

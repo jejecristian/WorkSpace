@@ -1,0 +1,11 @@
+.fondo-color{
+    background-color: aquamarine;
+}
+
+@media(min-width: 768px) and (max-width: 979px){
+    main{
+        margin-right: 2px !important;
+        margin-left: 2px !important;
+        padding: 10px 10px !important;
+    }
+}

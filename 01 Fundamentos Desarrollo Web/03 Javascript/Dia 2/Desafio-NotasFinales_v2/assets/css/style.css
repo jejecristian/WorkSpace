@@ -1,0 +1,14 @@
+/* 
+Este archivo es solamente de muestra
+no contiene funcionalidad sobre la página web
+*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logoCustom{
+    position: absolute;
+    right: 20%;
+}

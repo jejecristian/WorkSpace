@@ -1,0 +1,244 @@
+/* 
+Esta hoja de estilo fue descargada desde la plataforma LMS, 
+la cual posee instrucciones que aplican aspectos principalmente 
+a la página index.html.
+Sin embargo, se añaden instrucciones que aplican aspecto
+exclisivamente a la página personalizada Evento01.html.
+*/
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+.subtitulo, h4, h5 {
+  font-weight: 400;
+}
+
+#ubicacion h2 {
+  margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+
+#eventos h2 {
+  margin-bottom: 1em;
+}
+
+#eventos h3 {
+  margin: 1em auto;
+}
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+
+.oscuro a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+
+.hero-section {
+  text-align: right;
+  background-image: url('../img/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+section, footer {
+  margin-top: 4.5rem;
+}
+
+footer {
+  padding: 3.125rem;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker, .charla-texto, .evento {
+  display: inline-block;
+}
+
+.charla-speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-texto  {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+
+.evento {
+  width: 30%;
+}
+
+.evento img {
+  width: 75%;
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+/* las siguientes instrucciones se aplican solo a la pagina Evento01.html */
+.navEvento01{
+  /*maqueta*/
+  position: static;
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.ulEvento01{
+  /*custom*/
+  margin-left: 3rem;
+}
+
+.sectionEvento01{
+  /*maqueta*/
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0.5px;
+  color: #000F08;
+  opacity: 1;
+  /*custom*/
+  text-align: justify;
+  margin-bottom: 5rem;
+}
+
+.centradoEvento01{
+  /*custom*/
+  width: 56%;
+  margin: 0 auto;
+}
+
+.tituloEvento01{
+  /*maqueta*/
+  text-align: left;
+  font: normal normal bold 45px/61px Open Sans;
+  letter-spacing: 0px;
+  color: #000F08;
+  opacity: 1;
+}
+
+.imgEvento01{
+  /*maqueta*/
+  background: #B36B0124 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  /*custom*/
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.subtituloEvento01{
+  /*maqueta*/
+  text-align: left;
+  font: normal normal bold 40px/55px Open Sans;
+  letter-spacing: 0px;
+  color: #000F08;
+  opacity: 1;
+  /*custom*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footerEvento01{
+  /*custom*/
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.textoFinal{
+  /*maqueta*/
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  /*custom*/
+  text-align: center;
+}
+
+.cajaFooterEvento01{
+  /*custom*/
+  margin: 5rem 0 0 0;
+}

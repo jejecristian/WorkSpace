@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 37pt;
+}
+

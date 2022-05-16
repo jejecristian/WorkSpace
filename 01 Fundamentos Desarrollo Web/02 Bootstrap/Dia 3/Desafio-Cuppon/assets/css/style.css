@@ -1,0 +1,71 @@
+/* --------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/* --------------------------------------------------------------------------------------------- */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #707070;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+nav{
+  background-color: #28A745;
+  color: #FFFFFF7F;
+  border: #FFFFFF80 solid;
+}
+.logo_white_custom{
+  margin-left: 20pt;
+  width: 86pt;
+  height: 25pt;
+}
+.burger_custom{
+  margin-right: 22pt;
+}
+.card_custom{
+  width: 95%;
+  margin-left: 0.5rem;
+}
+.card_title_custom{
+  font-size: 20px;
+  color: #212529;
+  font-weight: 300;
+}
+.card_text_custom{
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.card_map_custom{
+  font-size: 13px;
+  color: #707070;
+  font-weight: 300;
+}
+.card_price_custom{
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.card_discount_custom{
+  font-size: 20px;
+  color: #28A745;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+form{
+  background-color: #28A745;
+  color: #FFFFFF;
+  font-size: 18pt;
+}
+.logo_black_custom{
+  margin-bottom: 0.5rem;
+  width: 6rem;
+}
+.p_footer_custom{
+  color: #707070;
+  font-weight: 300;
+  font-size: 16pt;
+}

@@ -1,0 +1,148 @@
+/* --------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* --------------------------------------------------------------------------------------------- */
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #212529; /* En la maqueta se utiliza el #373A3C. La pauta indica el #212529 */
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body *{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1{
+  font-weight: 700;
+  background-color: #fff;
+  color: #707070; /* Este es el color de letra utilizado en la maqueta para el título */
+  padding-top: 8rem;
+}
+p{
+  font-weight: 400;
+  color: #707070;
+}
+/* --------------------------------------------------------------------------------------------- */
+/* ---------- Encabezado, navbar, menu, boton, título ----------*/
+.nav_bg_custom {
+	background-color: #e83e8c;
+}
+.logo{
+  width: 50%;
+  padding-left: 1rem;
+}
+/* ---------- Seccion tarjetas ----------*/
+.space_bt_cards_custom{
+  margin-top: 0rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+.p_card_custom{
+  overflow: hidden;
+  height: 3rem;
+}
+/* ---------- Seccion medios de pagos, iconos fontAwesome ----------*/
+.icons-section{
+  background-color: #17a2b8;
+}
+.mp_div_principal{
+    width: 100%;
+}
+.mp_div_interior_1{
+   display: inline-block;
+   width: 25rem;
+   vertical-align: middle;
+   margin-left: 1rem;
+   white-space: normal;
+   padding-left: 1rem;
+   padding-right: 0rem;
+   padding-top: 4rem;
+   padding-bottom: 3rem;
+ }
+ h2{
+   font-weight: bold;
+   font-size: 2.5rem;
+ }
+ .mp_div_interior_2{
+   display: inline-block;
+   width: 45rem;
+   vertical-align: middle;
+   margin-left: 1rem;
+   white-space: normal;
+   padding: 3rem;
+ }
+/* ---------- Pie de pagina ----------*/
+footer{
+  background-color: #e83e8c;
+  margin: 0;
+}
+.img_footer{
+  width: 7rem;
+  padding: 2rem;
+}
+/* --------------------------------------------------------------------------------------------- */
+/* El siguiente JQuery es para cuando se visualice en resolución de Iphone 5/SE, se esconda la
+sección medios de pago como se muestra en la maqueta de ejmplo. En otras resoluciones sí se muestre. */
+@media (max-width: 321px) {
+  .div_nav{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .a_nav{
+    width: 10rem;
+  }
+  .logo{
+    margin-left: 0;
+    padding-left: 0;
+    width: 8rem;
+  }
+  .div_mediospago{
+    background-color: #fff;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+  }
+  h2{
+    font-size: 0rem;
+  }
+  .mp_div_principal{
+    background-color: #fff;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+  }
+  .iconosfonosom{
+    font-size: 0px;
+  }
+  .mp_div_interior_1{
+     width: 0rem;
+     height: 0rem;
+     margin: 0rem;
+     padding: 0rem;
+   }
+   .mp_div_interior_2{
+     width: 0rem;
+     height: 0rem;
+     margin: 0rem;
+     padding: 0rem;
+   }
+}
+/* --------------------------------------------------------------------------------------------- */
+/* El siguiente JQuery es para dejar la hamburguesa al costado derecho en resoluciones intermedias. */
+@media (max-width: 475px) {
+  .div_nav{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .a_nav{
+    width: 10rem;
+  }
+  .logo{
+    margin-left: 0;
+    padding-left: 0;
+    width: 8rem;
+  }
+}

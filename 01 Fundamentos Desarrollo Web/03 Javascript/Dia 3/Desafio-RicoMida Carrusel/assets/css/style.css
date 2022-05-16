@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Se sobreescribe clase del branding de bootstrap para aplicar estilos al logo*/
+.navbar-brand {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 37pt;
+}
+
+h1 {
+    font-family: 'Cabin';
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Cabin Regular 400';;
+    font-size: 16pt;
+}
+
+
+.btn {
+    max-width: 141.71pt!important;
+}
+
+/*Carousel */
+.carousel-indicators {
+    bottom: 0;
+}
+
+/*Se edita selector de paginas, se redonde con vborder radius*/
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background-color: #373A3C;
+}
+
+hr {
+    border: 1px solid #000000;
+}
+
+/*Carousel end*/
+
+
+/* Large devices (desktops, 992px and up)*/
+
+/*Elimina el border top en pantallas grandes*/
+@media (min-width: 992px) {
+    div .border-top {
+        border: none!important;
+    }
+
+    .info h1, .info h2{
+        text-align: left!important;
+    }
+
+    .info .justify-content-between {
+        width: 100%;
+    }
+}
+

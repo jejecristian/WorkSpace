@@ -1,0 +1,78 @@
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ ks
+bash: ks: command not found
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ ls
+ ansel/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer0000000000000000000
+1.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer0000000000000000000
+2.regtrans-ms
+ ntuser.ini
+ Pictures/
+ Plantillas@
+ Reciente@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+CursoJavaScript@MSIGE60 MINGW64 ~
+$ cd desktop
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cp pokemon.txt carpeta_padre
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cp pokemon.txt carpeta padre
+cp: target 'padre' is not a directory
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cp pokemon.txt "carpeta padre"
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cp -r "carpeta padre" "carpeta hijo"
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ cp -r "carpeta padre" "carpeta hijo"
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ mv archivonuevo.txt "carpeta padre"
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ ls
+'carpeta hijo'/  'carpeta padre'/   desktop.ini   pokemon.txt
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ ls -a
+ ./   ../  'carpeta hijo'/  'carpeta padre'/   desktop.ini   pokemon.txt
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$ dir
+carpeta\ hijo  carpeta\ padre  desktop.ini  pokemon.txt
+
+CursoJavaScript@MSIGE60 MINGW64 ~/desktop
+$

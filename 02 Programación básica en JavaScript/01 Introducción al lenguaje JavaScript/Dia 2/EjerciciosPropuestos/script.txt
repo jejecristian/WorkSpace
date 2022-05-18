@@ -1,0 +1,40 @@
+var numeroUno = prompt('ingrese un numero', '0')
+var numeroDos = prompt('ingrese otro numero', '0')
+var suma = (parseFloat(numeroUno) + parseFloat(numeroDos))
+console.log('el resultado de la suma es :' + suma)
+
+
+var numeroUno = prompt('ingrese un numero', '0')
+var numeroDos = prompt('ingrese otro numero', '0')
+var suma = (parseFloat(numeroUno) + parseFloat(numeroDos))
+var resta = (parseFloat(numeroUno) - parseFloat(numeroDos))
+var mult = (parseFloat(numeroUno) * parseFloat(numeroDos))
+var divi = (parseFloat(numeroUno) / parseFloat(numeroDos))
+var modu = (parseFloat(numeroUno) % parseFloat(numeroDos))
+console.log('el resultado de la suma es: ' + suma)
+console.log('el resultado de la resta es: ' + resta)
+console.log('el resultado de la multiplicacion es: ' + mult)
+console.log('el resultado de la division es: ' + divi)
+console.log('el resultado del modulo es: ' + modu)
+
+//backtick
+var mensajeBacktick = `hola
+mundo
+${suma} ahora repito el valor ${suma}`
+
+//backtick con alert
+alert(`hola ${prompt('ingrese su nombre')} !!!`)
+
+// comienzo
+var cliente = `Bienvenido: 
+${prompt('Ingrese su nombre:')}
+¿Como se encuentra hoy?`
+alert(cliente)
+
+//terminado
+var cliente = `Bienvenido: `
+var mensaje = `${prompt('Ingrese su nombre:')}`
+alert(cliente + mensaje + '¿Como se encuentra hoy?')
+
+
+onclick="desafioejercicio1()"

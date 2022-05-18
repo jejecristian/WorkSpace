@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>EJERCICIOPROPUESTO3B</TITLE>
+	</HEAD>
+	<BODY onload="ejerciciopropuesto3b();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function ejerciciopropuesto3b() {
+				var acumulador, contador, nombre, nota, promedio;
+				nombre = "";
+				nota = 0;
+				contador = 1;
+				acumulador = 0;
+				promedio = 0;
+				document.write("Promedio de cinco notas",'<BR/>');
+				document.write("Ingrese su nombre: ",'<BR/>');
+				nombre = prompt("Ingrese su nombre:");
+				document.write("Hola "+nombre+"!!!",'<BR/>');
+				do {
+					document.write("Ingrese nota: ",contador,'<BR/>');
+					nota = Number(prompt("Ingrese nota: "));
+					contador = contador+1;
+					acumulador = acumulador+nota;
+				} while (contador<6);
+				promedio = (acumulador/5);
+				document.write("El promedio de notas es:  ",promedio,'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

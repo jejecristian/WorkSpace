@@ -59,17 +59,20 @@ modulo = suma % 11;
 
 dv = 11 - modulo;
 
+console.log('modulo ', modulo)
+console.log('dv ', dv)
+
 if(dv === 11){
     dv_auxiliar = '0';
 }
-else if (dv === 0){
+else if (dv === 10){
     dv_auxiliar = 'K'
 }
 else {
-    dv_auxiliar = toString(dv);
+    dv_auxiliar = String(dv);
 }
 
-if(digito_verificador.toUpperCase() == dv_auxiliar){
+if(digito_verificador.toUpperCase() === dv_auxiliar){
     console.log('el rut es correcto');
 }
 else{

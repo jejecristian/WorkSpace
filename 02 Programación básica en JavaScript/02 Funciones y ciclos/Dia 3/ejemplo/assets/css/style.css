@@ -1,0 +1,19 @@
+.divTitle {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.resultado {
+    color: green;
+    font-style: italic;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    color: red;
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="http://localhost:3000/enviar">
+    <h2>Enviar Correo:</h2>
+    <div class="form-wrap">
+      <label for="">Para</label>
+      <input type="text" name="to">
+    </div>
+    <div class="form-wrap">
+      <label for="">Asunto</label>
+      <input type="text" name="subject">
+    </div>
+    <div class="form-wrap">
+      <label for="">Mensaje</label>
+      <textarea name="text"></textarea>
+    </div>
+    <div class="form-wrap">
+      <button type="submit">enviar</button>
+    </div>
+  </form>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

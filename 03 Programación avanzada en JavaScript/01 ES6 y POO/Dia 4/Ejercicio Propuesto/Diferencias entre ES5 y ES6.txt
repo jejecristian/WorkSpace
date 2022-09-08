@@ -1,0 +1,14 @@
+1.- Funciones Arrow
+2.- Alcance de variable (var vs let, const)
+3.- Reducir lineas de codigo:
+- 3 lineas vs 1 linea
+- ademas no necesita llaves
+- existe un retorno implicito
+
+4.- Argumentos:
+- si es 1 argumento no necesita parentesis
+- si no tiene argumentos debe llevar parentesis
+- si tiene mas de 1 debe llevar parentesis
+
+5.- No tiene sus propios enlaces a this o super y no se debe usar como métodos.
+6.- No se puede utilizar como constructor.

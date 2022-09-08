@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script>
+        window.onload = function () {
+
+
+
+
+
+
+            let chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                theme: "dark1",
+                title: { text: "COUNTRIES" },
+                axisY: { title: "Quantity", titleFontColor: "#ffffff", lineColor: "#ffffff", labelFontColor: "#ffffff", tickColor: "#ffffff" },
+                toolTip: { shared: true },
+                legend: { cursor: "pointer", itemclick: toggleDataSeries },
+                data:
+                    [
+                        { type: "column", name: "active", legendText: "active", showInLegend: true,
+                            dataPoints:
+                                [
+                                    { label: "Saudi", y: 266.21 },
+                                    { label: "Venezuela", y: 302.25 },
+                                    { label: "Iran", y: 157.20 },
+                                    { label: "Iraq", y: 148.77 },
+                                    { label: "Kuwait", y: 101.50 },
+                                    { label: "UAE", y: 97.8 },
+                                    { label: "Australia", y: 97.8 },
+                                    { label: "Armenia", y: 97.8 },
+                                    { label: "España", y: 97.8 },
+                                    { label: "Argelia", y: 99.8 },
+                                ]
+                        },
+                        { type: "column", name: "confirmed", legendText: "confirmed", showInLegend: true,
+                            dataPoints:
+                                [
+                                    { label: "Saudi", y: 10.46 },
+                                    { label: "Venezuela", y: 2.27 },
+                                    { label: "Iran", y: 3.99 },
+                                    { label: "Iraq", y: 4.45 },
+                                    { label: "Kuwait", y: 2.92 },
+                                    { label: "UAE", y: 3.1 },
+                                    { label: "Australia", y: 4.2 },
+                                    { label: "Armenia", y: 5.4 },
+                                    { label: "España", y: 6.5 },
+                                    { label: "Argelia", y: 7.6 }
+                                ]
+                        },
+                        { type: "column", name: "deaths", legendText: "deaths", showInLegend: true,
+                            dataPoints:
+                                [
+                                    { label: "Saudi", y: 266.21 },
+                                    { label: "Venezuela", y: 302.25 },
+                                    { label: "Iran", y: 157.20 },
+                                    { label: "Iraq", y: 148.77 },
+                                    { label: "Kuwait", y: 101.50 },
+                                    { label: "UAE", y: 97.8 },
+                                    { label: "Australia", y: 97.8 },
+                                    { label: "Armenia", y: 97.8 },
+                                    { label: "España", y: 97.8 },
+                                    { label: "Argelia", y: 99.8 },
+                                ]
+                        },
+                        { type: "column", name: "recovered", legendText: "recovered", showInLegend: true,
+                            dataPoints:
+                                [
+                                    { label: "Saudi", y: 10.46 },
+                                    { label: "Venezuela", y: 2.27 },
+                                    { label: "Iran", y: 3.99 },
+                                    { label: "Iraq", y: 4.45 },
+                                    { label: "Kuwait", y: 2.92 },
+                                    { label: "UAE", y: 3.1 },
+                                    { label: "Australia", y: 4.2 },
+                                    { label: "Armenia", y: 5.4 },
+                                    { label: "España", y: 6.5 },
+                                    { label: "Argelia", y: 7.6 }
+                                ]
+                        }
+                    ]
+            });
+            chart.render();
+            function toggleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                }
+                else {
+                    e.dataSeries.visible = true;
+                }
+                chart.render();
+            }
+
+
+
+
+
+
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>

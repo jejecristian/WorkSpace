@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto';
+    background-image: linear-gradient(to bottom, #372943, #fff);
+    color: aliceblue;
+    position: relative;
+    padding-bottom: 15rem;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 960px){
+    body {
+        padding-bottom: 50rem;
+    }
+    footer {
+        width: 100%;
+    }
+}

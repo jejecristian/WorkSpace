@@ -1,0 +1,12 @@
+{{#each productos}}
+<div class="col-md-4 py-2">
+  <div class="card border-0 {{this.opacity}}">
+    <div class="card-body">
+      <h5 class="card-title">{{this.nombre}}</h5>
+      <a href="/agregar/{{this.nombre}}">
+        <img src="img/{{this.nombre}}.png" class="img-fluid" alt="{{this.nombre}}">
+      </a>
+    </div>
+  </div>
+</div>
+{{/each}}
